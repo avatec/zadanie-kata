@@ -6,6 +6,7 @@
             "App\\": "src/"
         }
     },
+    "test": "vendor/bin/phpunit",
     "require": {
         "phpunit/phpunit": "^8.2"
     }
