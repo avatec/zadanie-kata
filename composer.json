@@ -1,6 +1,7 @@
 {
     "name": "qafoo/gilded-rose-kata",
     "description": "Zadanie refaktoryzacji kodu",
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
             "Tests\\": "tests/",
