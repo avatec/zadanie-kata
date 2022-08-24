@@ -1,12 +1,18 @@
 {
     "name": "qafoo/gilded-rose-kata",
+    "description": "Zadanie refaktoryzacji kodu",
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
             "Tests\\": "tests/",
             "App\\": "src/"
         }
     },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
     "require": {
+        "php": ">7.3",
         "phpunit/phpunit": "^8.2"
     }
 }
